@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #49033f, #4e0271);
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    padding: 80px 20px;
+    background: radial-gradient(circle at top, #59135e, #000);
+}
+
+h1 {
+    font-size: 52px;
+    letter-spacing: 6px;
+    margin: 0;
+    color: #d6d6d6;
+}
+
+header p {
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+.destaque {
+    color: #a855f7;
+    font-size: 22px;
+    text-shadow: 0 0 10px #a855f7;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid #a855f7;
+    color: #a855f7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #a855f7;
+    color: #000;
+    box-shadow: 0 0 15px #a855f7;
+}
+
+
+section {
+    padding: 50px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    transition: 0.3s;
+    border: 1px solid #2a2a2a;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #a855f7;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+}
+
+footer {
+    padding: 20px;
+    background: #000;
+    font-size: 14px;
+    opacity: 0.7;
+}
